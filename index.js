@@ -6,10 +6,10 @@ var score = 0;
 var highScores = [
   {
     name: "Pravesh",
-    score: 2,
+    score: 4,
   },{
     name: "Naman",
-    score: 1,
+    score: 5,
   },
 ]
 
@@ -21,7 +21,18 @@ var questions = [{
 {
   question: "Where do I work? ",
   answer: "zillusion"
-}];
+},{
+  question: "What do I like to do?",
+  answer: "Code" 
+},{
+  question: "What do I like to Read?",
+  answer: "Fiction" 
+},{
+  question: "What do I like to Play?",
+  answer: "Badminton" 
+},
+
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
